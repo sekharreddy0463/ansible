@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  become: ture
+  roles:
+  - lamp
+
+
+
+

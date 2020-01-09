@@ -1,0 +1,11 @@
+---
+- name: install httpd
+  yum:
+    name: httpd
+    state: latest
+- name: start apcahe
+  service:
+- name: copy index.html file
+  copy:
+     src: index.html
+     dest: /var/www/html/
